@@ -8,291 +8,493 @@
   </head>
   <body>
     <nav>
-      <a href="#">Página inicial</a>
-      <a href="#">Sobre</a>
-      <a href="#">Contato</a>
-      <img
-        class="logo"
-        src="./imagens/logo da pucpr.png"
-        alt="Logo da PUCPR"
-        width="100"
-        height="100"
-      />
+      <a href="#disciplinas">Disciplinas</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
     </nav>
 
     <header>
-      <h1>Oiê! Sejam muito bem vindos ao meu portfólio!</h1>
-      <p class="destaque">
-        ⋆.˚✮ Isabelle Duarte Santos ✮˚.⋆
-        <img class="foto" src="./imagens/me.jpg" alt="Foto pessoal" />
-        Estudante de Bacharelado em Ciência da Computação - PUCPR
-      </p>
       <div>
-        <details>
-          <summary>-ˋˏ ༻❀ Sobre mim! ❀༺ ˎˊ-</summary>
-          <p>
-            Tenho 17 anos e sempre me interessei desde pequena pela área de
-            tecnologia e jogos em geral. Entretanto, meu interesse profissional
-            na área se desenvolveu posteriormente, visando a crescente demanda e
-            necessidade da tecnologia, do desenvolvimento de inteligências
-            artificiais entre outras ferramentas. Identifiquei o curso de
-            Bacharelado Ciências da Computação como uma grande oportunidade de
-            ingressar neste mercado e adquirir mais conhecimento sobre as
-            ferramentas, conhecimentos, conceitos e habilidades do produto
-            possivelmente mais crucial do século XXI: o desenvolvimento
-            tecnológico.
-          </p>
-        </details>
+        <h1>Oiê! Sejam muito bem vindos ao meu portfólio!</h1>
+        <p class="destaque">
+          ⋆.˚✮ Isabelle Duarte Santos ✮˚.⋆
+          <img class="foto" src="./imagens/me.jpg" alt="Foto pessoal" />
+          Estudante de Bacharelado em Ciência da Computação - PUCPR
+        </p>
+
+        <div id="sobre" class="caixa">
+          <details>
+            <summary>
+              <img
+                src="./imagens/search.png"
+                alt="Ícone do Sobre Mim"
+                class="summary-icon"
+              />
+              <span>Sobre mim</span>
+            </summary>
+            <div class="details-content">
+              <p>
+                Tenho 17 anos e sempre me interessei desde pequena pela área de
+                tecnologia e de jogos em geral. Entretanto, meu interesse
+                profissional na área se desenvolveu posteriormente, visando a
+                crescente demanda e necessidade da tecnologia, do
+                desenvolvimento de inteligências artificiais, entre outras
+                ferramentas.
+              </p>
+              <p>
+                Identifiquei no curso de Bacharelado em Ciência da Computação
+                uma grande oportunidade de ingressar neste mercado e adquirir
+                mais conhecimento sobre as ferramentas, conhecimentos, conceitos
+                e habilidades dos produtos possivelmente mais cruciais do século
+                XXI: o desenvolvimento tecnológico e a inteligência artificial.
+              </p>
+            </div>
+          </details>
+        </div>
+        <h1 id="disciplinas" class="titulo">Disciplinas & Projetos</h1>
+        <p class="disciplinas-descricao">
+          Trabalhos desenvolvidos ao longo das disciplinas
+        </p>
       </div>
-      <h1 class="cabeçalho">DISCIPLINAS && PROJETOS</h1>
     </header>
 
     <main>
-      <div>
+      <div class="caixa">
         <details>
-          <summary>Raciocínio Algorítmico</summary>
-          <h1>
-            Prof. Fabricio Enembreck
-            <br />
-            Trabalhos desenvolvidos ao longo da disciplina
-          </h1>
-          <h2>Listas de Exercícios</h2>
-          <p>
-            Ao longo da disciplina, desenvolvemos inúmeras listas de exercícios
-            que nos proporcionaram mais do que aprendizagem teórica, mas sim
-            conhecimento prático sobre elementos fundamentais da linguagem de
-            programação Python.
-          </p>
-          <h2>Jokenpô</h2>
-          <p>
-            Um dos projetos colaborativos desenvolvidos ao longo da disciplina
-            foi a elaboração de um jogo de Jokenpô utilizando a linguagem de
-            programação Python. Em trios, elaboramos e desenvolvemos o código em
-            conjunto, promovendo o trabalho em equipe e a aplicação prática de
-            nossos conhecimentos teóricos.
-          </p>
-          <h2>Máquina de Vendas</h2>
-          <p>
-            No nosso segundo projeto colaborativo, desenvolvemos uma máquina de
-            vendas na qual é possível comprar produtos utilizando cédulas ou
-            moedas, implementamos sistema de troco, estoque e também modo
-            administrador.
-          </p>
+          <summary>
+            <img
+              src="./imagens/brain.png"
+              alt="Ícone de Algoritmo"
+              class="summary-icon"
+            />
+            <span>Raciocínio Algorítmico</span>
+          </summary>
+          <div class="details-content">
+            <h1>Prof. Fabricio Enembreck</h1>
+            <h2>Listas de Exercícios</h2>
+            <p>
+              Ao longo da disciplina, desenvolvemos inúmeras listas de
+              exercícios que nos proporcionaram mais do que aprendizagem
+              teórica, mas sim conhecimento prático sobre elementos fundamentais
+              da linguagem de programação Python.
+            </p>
+            <a
+              class="image-link-wrapper"
+              target="_blank"
+              href="https://github.com/isa991/RACIOCINIO_ALGORITMICO/tree/main"
+              ><img
+                class="imagem"
+                src="./imagens/listas ex.png"
+                alt="Print de uma parte do código de uma das listas"
+            /></a>
+            <h2>Jokenpô</h2>
+            <p>
+              Um dos projetos colaborativos desenvolvidos ao longo da disciplina
+              foi a elaboração de um jogo de Jokenpô utilizando a linguagem de
+              programação Python. Em trios, elaboramos e desenvolvemos o código
+              em conjunto, promovendo o trabalho em equipe e a aplicação prática
+              de nossos conhecimentos teóricos.
+            </p>
+            <a
+              class="image-link-wrapper"
+              target="_blank"
+              href="https://github.com/SUGURU-Get0U/RAs_python/tree/main/jyakenpon"
+              ><img
+                class="imagem"
+                src="./imagens/jokempo.png"
+                alt="Print de uma parte do Jokenpô"
+            /></a>
+            <h2>Máquina de Vendas</h2>
+            <p>
+              No nosso segundo projeto colaborativo, desenvolvemos uma máquina
+              de vendas na qual é possível comprar produtos utilizando cédulas
+              ou moedas, implementamos sistema de troco, estoque e também modo
+              administrador.
+            </p>
+            <a
+              class="image-link-wrapper"
+              target="_blank"
+              href="https://github.com/sergiocalazans/RaciocinioAlgoritmico/tree/main/Projetos%20Colaborativos/M%C3%A1quina%20de%20bebidas"
+              ><img
+                class="imagem"
+                src="./imagens/maquinavendas.png"
+                alt="Print de uma parte do código da Máquina de Vendas"
+            /></a>
+          </div>
         </details>
       </div>
 
-      <div>
+      <div class="caixa">
         <details>
-          <summary>Resolução de Problemas com Lógica Matemática</summary>
-          <h1>
-            Prof. Rafaela Otemaier
-            <br />
-            Trabalhos desenvolvidos ao longo da disciplina
-          </h1>
-          <h2>Listas de Exercícios</h2>
-          <p>
-            Ao longo da disciplina, trabalhamos na resolução de inúmeras listas
-            de exercícios que nos proporcionaram mais do que aprendizagem
-            teórica, mas sim aplicação prática de nossos conhecimentos sobre
-            operadores lógicos, manipulação sintática, regras de inferência,
-            entre outros.
-          </p>
-          <a
-            class="link2"
-            target="_blank"
-            href="https://www.canva.com/design/DAGp6avfYCM/UAoGjyV3yfqdsvm1Bpmzow/view?utm_content=DAGp6avfYCM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd736733a35"
-            >Lista de Exercícios 1</a
-          >
-          <br />
-          <a
-            class="link2"
-            target="_blank"
-            href="https://www.canva.com/design/DAGp6Y7KDYI/Cv5_cPKsFyuIylLVJydFfw/view?utm_content=DAGp6Y7KDYI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7b18d3668b"
-            >Lista de Exercícios 2</a
-          >
-          <br />
-          <a
-            class="link2"
-            target="_blank"
-            href="https://www.canva.com/design/DAGp6UZ7ve8/fZdNhw6incZNcKImPuccTQ/view?utm_content=DAGp6UZ7ve8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4722a38dff"
-          >
-            Lista de Exercícios 3
-          </a>
-          <br />
-          <a class="link2" target="_blank" href="#"> Lista de exercícios 4 </a>
-          <br />
-          <a class="link2" target="_blank" href="#"> Lista de exercícios 5 </a>
-          <br />
-          <a
-            class="link2"
-            target="_blank"
-            href="https://www.canva.com/design/DAGp4TGpxe0/tQvcQtIdO9KiceQJGWYbYQ/view?utm_content=DAGp4TGpxe0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h41d7e58922"
-          >
-            Lista de Exercícios 6
-          </a>
-          <br />
-          <a
-            class="link2"
-            target="_blank"
-            href="https://www.canva.com/design/DAGhn9UVJgY/ASfErmoHtY1FW4yFUfTJww/view?utm_content=DAGhn9UVJgY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb457132aba"
-          >
-            Lista de exercícios 7
-          </a>
-          <h2>Jogo da Tabela Verdade</h2>
-          <p>
-            Tivemos a proposta de desenvolver através da linguagem de Python.
-            estudada em Raciocínio Algorítmico, um jogo sobre a Tabela Verdade
-            vista nas aulas de lógica, o que nos possibilitou unir diferentes
-            conhecimentos destas duas matérias no desenvolvimento de uma
-            aplicação prática e educativa sobre as mesmas.
-          </p>
+          <summary>
+            <img
+              src="./imagens/idea.png"
+              alt="Ícone de Lógica"
+              class="summary-icon"
+            />
+            <span>Resolução de Problemas com Lógica Matemática</span>
+          </summary>
+          <div class="details-content">
+            <h1>Prof. Rafaela Otemaier</h1>
+            <h2>Listas de Exercícios</h2>
+            <p>
+              Ao longo da disciplina, trabalhamos na resolução de inúmeras
+              listas de exercícios que nos proporcionaram mais do que
+              aprendizagem teórica, mas sim aplicação prática de nossos
+              conhecimentos sobre operadores lógicos, manipulação sintática,
+              regras de inferência, entre outros conceitos lógicos.
+            </p>
+
+            <div class="exercise-list-grid">
+              <a
+                class="exercise-link"
+                target="_blank"
+                href="https://www.canva.com/design/DAGp6avfYCM/UAoGjyV3yfqdsvm1Bpmzow/view?utm_content=DAGp6avfYCM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd736733a35"
+              >
+                Lista de Exercícios 1
+              </a>
+              <a
+                class="exercise-link"
+                target="_blank"
+                href="https://www.canva.com/design/DAGp6Y7KDYI/Cv5_cPKsFyuIylLVJydFfw/view?utm_content=DAGp6Y7KDYI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7b18d3668b"
+              >
+                Lista de Exercícios 2
+              </a>
+              <a
+                class="exercise-link"
+                target="_blank"
+                href="https://www.canva.com/design/DAGp6UZ7ve8/fZdNhw6incZNcKImPuccTQ/view?utm_content=DAGp6UZ7ve8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4722a38dff"
+              >
+                Lista de Exercícios 3
+              </a>
+              <a
+                class="exercise-link"
+                target="_blank"
+                href="https://www.canva.com/design/DAGp4TGpxe0/tQvcQtIdO9KiceQJGWYbYQ/view?utm_content=DAGp4TGpxe0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h41d7e58922"
+              >
+                Lista de Exercícios 6
+              </a>
+              <a
+                class="exercise-link"
+                target="_blank"
+                href="https://www.canva.com/design/DAGhn9UVJgY/ASfErmoHtY1FW4yFUfTJww/view?utm_content=DAGhn9UVJgY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb457132aba"
+              >
+                Lista de Exercícios 7
+              </a>
+            </div>
+            <h2>Jogo da Tabela Verdade</h2>
+            <p>
+              Tivemos a proposta de desenvolver através da linguagem de Python,
+              estudada em Raciocínio Algorítmico, um jogo sobre a Tabela Verdade
+              vista nas aulas de lógica, o que nos possibilitou unir diferentes
+              conhecimentos destas duas matérias no desenvolvimento de uma
+              aplicação prática e educativa sobre as mesmas.
+            </p>
+            <a
+              class="image-link-wrapper"
+              target="_blank"
+              href="https://colab.research.google.com/drive/1e6qbv8HuAwkhRBu8WUOqOkJ1oQoN7Qg6?usp=sharing"
+              ><img
+                class="imagem"
+                src="./imagens/jogoverdade.png"
+                alt="Print de uma parte do código do Jogo da Tabela Verdade"
+            /></a>
+          </div>
         </details>
       </div>
-      <div>
+      <div class="caixa">
         <details>
-          <summary>Experiência Criativa: Navegando na Computação</summary>
-          <h1>
-            Prof. Mateus Nunes da Silva
+          <summary>
+            <img
+              src="./imagens/art-and-design.png"
+              alt="Ícone de Experiência Criativa"
+              class="summary-icon"
+            />
+            <span>Experiência Criativa: Navegando na Computação</span>
+          </summary>
+          <div class="details-content">
+            <h1>
+              Prof. Mateus Nunes da Silva
+              <br />
+              Prof. Luiz Antônio Pavão
+            </h1>
+            <h2>
+              Projeto 1 - Jogo
+              <br />
+              >> Capivara: A máfia selvagem
+            </h2>
+            <p>
+              No nosso primeiro projeto colaborativo, fomos assignados em grupos
+              aleatórios para desenvolver um jogo através do ambiente de
+              desenvolvimento Construct 3. Houve também a atribuição de um líder
+              para cada equipe, sendo eu a líder da minha.
+            </p>
+            <p>
+              Nossa equipe se dividiu entre diferentes funções a serem
+              realizadas para o desenvolvimento do jogo e por fim realizamos a
+              entrega, a apresentação do jogo em sua versão final, e a
+              publicação do mesmo na plataforma de jogos itch.io. O jogo
+              desenvolvido pela minha equipe foi "Capivara: A máfia selvagem",
+              um jogo de plataforma 2D de ação e aventura que conta com 4 fases,
+              tendo a 2° fase uma dinâmica de mini boss e a 4° e última fase um
+              boss final que encerra a aventura.
+            </p>
+            <iframe
+              class="jogo"
+              frameborder="0"
+              src="https://itch.io/embed/3468911?linkback=true&amp;border_width=3&amp;bg_color=afbfd2&amp;fg_color=3f2832&amp;link_color=193d3f&amp;border_color=327345"
+              width="556"
+              height="171"
+              ><a href="https://isa991.itch.io/capivara-a-mafia-selvagem"
+                >Capivara: A máfia selvagem by isa991</a
+              ></iframe
+            >
             <br />
-            Prof. Pavão
-            <br />
-            Trabalhos desenvolvidos ao longo da disciplina
-          </h1>
-          <h2>
-            Projeto 1 - Jogo
-            <br />
-            >> Capivara: A máfia selvagem
-          </h2>
-          <iframe
-            class="jogo"
-            frameborder="0"
-            src="https://itch.io/embed/3468911?linkback=true&amp;border_width=3&amp;bg_color=afbfd2&amp;fg_color=3f2832&amp;link_color=193d3f&amp;border_color=327345"
-            width="556"
-            height="171"
-            ><a href="https://isa991.itch.io/capivara-a-mafia-selvagem"
-              >Capivara: A máfia selvagem by isa991</a
-            ></iframe
-          >
-          <br />
-          <a
-            class="link"
-            target="_blank"
-            href="https://docs.google.com/document/d/1rJ0UW4XzR1OYWxFNe3XlC8m_1fKYRZ3DD2eoZFYNK4E/edit?usp=sharing"
-          >
-            Game Design Document
-          </a>
-          <p>
-            No nosso primeiro projeto colaborativo, fomos assignados em grupos
-            aleatórios para desenvolver um jogo através do ambiente de
-            desenvolvimento Construct 3. Houve também a atribuição de um líder
-            para cada equipe, sendo eu a líder da minha. Nossa equipe se dividiu
-            entre diferentes funções a serem realizadas para o desenvolvimento
-            do jogo e por fim realizamos a entrega, a apresentação do jogo em
-            sua versão final, e a publicação do mesmo na plataforma de jogos
-            itch.io. O jogo desenvolvido pela minha equipe foi "Capivara: A
-            máfia selvagem", um jogo de plataforma 2D de ação e aventura que
-            conta com 4 fases, tendo a 2° fase uma dinâmica de mini boss e a 4°
-            e última fase um boss final que encerra a aventura.
-          </p>
-          <h2>
-            Projeto 2 - Aplicativo Multimídia
-            <br />
-            >> Plantinha Pomposa
-          </h2>
-          <img
-            class="imagem"
-            src="./imagens/plantinha pomposa.png"
-            alt="Compilado de imagens do projeto"
-          />
-          <p>
-            No nosso segundo projeto colaborativo, formamos equipes para
-            desenvolver um aplicativo multimídia, que necessariamente deveria
-            estar de acordo com a seguinte proposta de Extensão Universitária,
-            entitulada de Atitudes que levam a sustentabilidade: abordar a área
-            temática do Meio Ambiente, responder à ODS n° 11 da ONU,
-            corresponder ao pilar Ambiental de ESG e se enquadrar na modalidade
-            de programa de caráter educativo, social, cultural, científico ou
-            tecnológico, com objetivo específico e prazo indeterminado. O
-            ambiente de desenvolvimento solicitado foi o Processing, utilizando
-            a linguagem de programação Java. Também foi implementado no projeto
-            um mecanismo de JSON.
-          </p>
-          <h2>
-            Projeto 3 - Desenvolvimento Web
-            <br />
-            >> Jornal Pomposo
-          </h2>
-          <img
-            class="imagem"
-            src="./imagens/jornal.png"
-            alt="Print do protótipo inicial do projeto"
-          />
-          <p>
-            Nosso terceiro projeto colaborativo, que ainda está em
-            desenvolvimento, consiste em desenvolver utilizando as linguagens de
-            programação HTML, CSS e JavaScript um aplicativo web simples, sendo
-            permitida a reutilização do projeto 2 para tal desenvolvimento.
-            Nossa equipe foi formada pela mesma equipe do projeto antecedente, e
-            decidimos adaptar elementos do projeto 2 para o desenvolvimento de
-            nosso novo aplicativo.
-          </p>
+            <a
+              class="link"
+              target="_blank"
+              href="https://docs.google.com/document/d/1rJ0UW4XzR1OYWxFNe3XlC8m_1fKYRZ3DD2eoZFYNK4E/edit?usp=sharing"
+            >
+              Game Design Document
+            </a>
+            <h2>
+              Projeto 2 - Aplicativo Multimídia
+              <br />
+              >> Plantinha Pomposa
+            </h2>
+            <p>
+              No nosso segundo projeto colaborativo, formamos equipes para
+              desenvolver um aplicativo multimídia, que necessariamente deveria
+              estar de acordo com a seguinte proposta de Extensão Universitária,
+              entitulada de Atitudes que levam a sustentabilidade: abordar a
+              área temática do Meio Ambiente, responder à ODS n° 11 da ONU,
+              corresponder ao pilar Ambiental de ESG e se enquadrar na
+              modalidade de programa de caráter educativo, social, cultural,
+              científico ou tecnológico, com objetivo específico e prazo
+              indeterminado.
+            </p>
+            <p>
+              O ambiente de desenvolvimento solicitado foi o Processing,
+              utilizando a linguagem de programação Java. Também foi
+              implementado no projeto um mecanismo de JSON.
+            </p>
+            <a
+              class="image-link-wrapper"
+              href="https://github.com/sergiocalazans/plantinhapomposa"
+              target="_blank"
+            >
+              <img
+                class="imagem"
+                src="./imagens/plantinha pomposa.png"
+                alt="Compilado de imagens do projeto"
+              />
+            </a>
+            <h2>
+              Projeto 3 - Desenvolvimento Web
+              <br />
+              >> Jornal Pomposo
+            </h2>
+            <p>
+              Nosso terceiro projeto colaborativo, que ainda está em
+              desenvolvimento, consiste em desenvolver utilizando as linguagens
+              de programação HTML, CSS e JavaScript um aplicativo web simples,
+              sendo permitida a reutilização do projeto 2 para tal
+              desenvolvimento. Nossa equipe foi formada pela mesma equipe do
+              projeto antecedente, e decidimos adaptar elementos do projeto 2
+              para o desenvolvimento de nosso novo aplicativo.
+            </p>
+            <a
+              class="image-link-wrapper"
+              href="https://github.com/sergiocalazans/jornalpomposo-final/tree/main"
+              target="_blank"
+              ><img
+                class="imagem"
+                src="./imagens/jornal.png"
+                alt="Print do protótipo inicial do projeto"
+            /></a>
+          </div>
         </details>
       </div>
 
-      <div>
+      <div class="caixa">
         <details>
-          <summary>Fundamentos de Sistemas Ciberfísicos</summary>
-          <h1>
-            Prof. Andrey Cabral Meira
+          <summary>
+            <img
+              src="./imagens/iot.png"
+              alt="Ícone de Fundamentos Ciberfísicos"
+              class="summary-icon"
+            />
+            <span>Fundamentos de Sistemas Ciberfísicos</span>
+          </summary>
+          <div class="details-content">
+            <h1>Prof. Andrey Cabral Meira</h1>
+            <h2>
+              Trabalho discente efetivo sobre Operações de Bitwise e Shift de
+              Bits
+            </h2>
+            <p>
+              Elaboração individual de um artigo explicativo sobre Operações de
+              Bitwise e Shift de Bits, desenvolvendo 5 exemplos para cada
+              operação a fim de facilitar o entendimento do leitor.
+            </p>
+            <a
+              class="link"
+              target="_blank"
+              href="https://docs.google.com/document/d/1VRcVnajZdj-szjRch7KPkLqfc-RQxEd4jA7OJMKP8-4/edit?usp=sharing"
+            >
+              TDE - Operações de Bitwise e Shift de Bits
+            </a>
+            <h2>Projeto IoT (S4) - ESP32, Atuadores e Sensores</h2>
+            <p>
+              Desenvolvimento colaborativo de um projeto de hardware
+              inicialmente no simulador Wokwi e posteriormente a aplicação
+              física do mesmo utilizando o microcontrolador ESP32 e
+              implementando 3 diferentes tipos de atuadores e de sensores,
+              produzindo também um relátorio ao longo deste processo para
+              registrar de forma mais detalhada e precisa todas as informações
+              do projeto.
+            </p>
+            <a
+              class="image-link-wrapper"
+              target="_blank"
+              href="https://docs.google.com/document/d/122ZKyS6__lZBNaJorgNwKFKeJgWJTHYTMvrCjnN8C8s/edit?usp=sharing"
+            >
+              Relatório do Projeto ESP 32<img
+                class="imagem"
+                width="650"
+                height="350"
+                src="./imagens/ESP32.jpg"
+                alt="Foto do protótipo de estação metereológica"
+              />
+            </a>
             <br />
-            Trabalhos desenvolvidos ao longo da disciplina
-          </h1>
-          <h2>
-            Trabalho discente efetivo sobre Operações de Bitwise e Shift de Bits
-          </h2>
-          <p>
-            Elaboração individual de um artigo explicativo sobre Operações de
-            Bitwise e Shift de Bits, desenvolvendo 5 exemplos para cada operação
-            a fim de facilitar o entendimento do leitor.
-          </p>
-          <h2>Projeto IoT (S4) - ESP32, Atuadores e Sensores</h2>
-          <p>
-            Desenvolvimento colaborativo de um projeto de hardware inicialmente
-            no simulador Wokwi e posteriormente a aplicação física do mesmo
-            utilizando o microcontrolador ESP32 e implementando 3 diferentes
-            tipos de atuadores e de sensores, produzindo também um relátorio ao
-            longo deste processo para registrar de forma mais detalhada e
-            precisa todas as informações do projeto.
-          </p>
-          <h2>Seminário sobre Sistemas Operacionais - Chrome OS</h2>
-          <p>
-            Elaboração colaborativa de um seminário sobre Sistemas Operacionais
-            e a elaboração de um vídeo explicativo sobre um Sistema Operacional
-            específico que foi assignado por forma de sorteio a cada equipe,
-            sendo nosso o Sistema Operacional Chrome OS.
-          </p>
+
+            <a
+              class="image-link-wrapper"
+              href="https://github.com/Pedr0fsc/Esp32-Weather-Monitoring"
+              target="_blank"
+              ><img
+                class="imagem"
+                width="650"
+                height="350"
+                src="./imagens/código esp32.png"
+                alt="Print de uma parte do código da estação metereológica"
+            /></a>
+
+            <h2>Seminário sobre Sistemas Operacionais - Chrome OS</h2>
+            <p>
+              Elaboração colaborativa de um seminário sobre Sistemas
+              Operacionais e a elaboração de um vídeo explicativo sobre um
+              Sistema Operacional específico que foi assignado por forma de
+              sorteio a cada equipe, sendo nosso o Sistema Operacional Chrome
+              OS.
+            </p>
+            <a
+              class="image-link-wrapper"
+              target="_blank"
+              href="https://docs.google.com/document/d/1-PwftnycZ_Nv3CekO27UXwo90haUuj_vmukjy3wbN6E/edit?usp=sharing"
+              ><img
+                class="imagem"
+                src="./imagens/chrome os.png"
+                alt="Logo do Chrome OS"
+              />
+            </a>
+            <br />
+          </div>
         </details>
       </div>
 
-      <div>
+      <div class="caixa">
         <details>
-          <summary>Filosofia</summary>
-          <h1>
-            Prof. Fred Trevisan
-            <br />
-            Trabalhos desenvolvidos ao longo da disciplina
-          </h1>
-          <p>
-            Ao longo da disciplina de filosofia, foram realizadas diversas
-            propostas de desenvolvimento de textos que tinham como base
-            argumentos, reflexões e conceitos abordados nas obras dos autores
-            estudados e discutidos em sala, proporciando uma maior reflexão e
-            aprendizagem sobre os mesmos.
-          </p>
+          <summary>
+            <img
+              src="./imagens/humanity.png"
+              alt="Ícone de Filosofia"
+              class="summary-icon"
+            />
+            <span>Filosofia</span>
+          </summary>
+          <div class="details-content">
+            <h1>Prof. Fred Carlos Trevisan</h1>
+            <p>
+              Ao longo da disciplina de filosofia, foram realizadas diversos
+              trabalhos discentes efetivos de desenvolvimento de textos que
+              tinham como base argumentos, reflexões e conceitos abordados nas
+              obras dos autores estudados e discutidos em sala, proporciando uma
+              maior reflexão e aprendizagem sobre os mesmos.
+            </p>
+            <p>
+              Por fim, como trabalho final elaboramos em grupo de um vídeo sobre
+              inteligência artificial com base nos textos de Hawking "A
+              inteligência artificial irá nos superar" e de Harari "Educação: a
+              mudança é a única constante". Realizamos uma análise sobre o
+              futuro de nossa atuação profissional diante das mudanças em curso
+              e como produto final desenvolvemos um vídeo, abordando conceitos
+              trabalhados e nossa reflexão final sobre o assunto.
+            </p>
+            <iframe
+              width="1000"
+              height="550"
+              src="https://www.youtube.com/embed/hysAcJGLoyc?si=q_otlaHJiJE4jQLS"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </details>
       </div>
-
-      <script src="index.js"></script>
     </main>
+
+    <section id="contato" class="contato-section">
+      <div class="contato-container">
+        <h2 class="titulo">Contato</h2>
+        <p class="contato-intro">
+          Se você gostou do meu portfólio ou tem alguma dúvida, pode me
+          encontrar nas seguintes plataformas:
+        </p>
+        <div class="contact-links-grid">
+          <a href="mailto:isaduartsantos@gmail.com" class="contact-card">
+            <div class="contact-card-icon">
+              <img src="./imagens/gmail.png" alt="Ícone do Gmail" />
+            </div>
+            <span class="contact-card-text">Email</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/isabelle-duarte-santos-16b000341/"
+            target="_blank"
+            class="contact-card"
+          >
+            <div class="contact-card-icon">
+              <img src="./imagens/linkedin.png" alt="Ícone do LinkedIn" />
+            </div>
+            <span class="contact-card-text">LinkedIn</span>
+          </a>
+          <a
+            href="https://github.com/isa991"
+            target="_blank"
+            class="contact-card"
+          >
+            <div class="contact-card-icon">
+              <img src="./imagens/github.png" alt="Ícone do Github" />
+            </div>
+            <span class="contact-card-text">GitHub</span>
+          </a>
+          <a
+            href="https://www.instagram.com/isaduartsantos/"
+            target="_blank"
+            class="contact-card"
+          >
+            <div class="contact-card-icon">
+              <img src="./imagens/instagram.png" alt="Ícone do Instagram" />
+            </div>
+            <span class="contact-card-text">Instagram</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
